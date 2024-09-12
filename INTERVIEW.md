@@ -7,6 +7,7 @@ Talk us through your thinking process. If you have any question, feel free to as
 
 ### 3. Coding question
 We will be using GitHub Codespaces for the following questions, please create a codespaces by clicking the dropdown `Use this template` -> `Open in codespaces` at top right of the Github Repo.
+
 ![button](./button.png)
 
 ### Q1
@@ -15,7 +16,6 @@ Please change the line `GitHub Codespaces ♥️ Flask` to `I ♥️ Flask` in t
 
 ### Q2
 <!-- 10 min -->
-<!-- Have existing code snippet to add to app.py, and file -->
 Please paste the following code to `app.py` and go visit the page `/add` and make sure the addition function works correctly.
 
 ```python
@@ -32,7 +32,6 @@ def add():
 
 ### Q3
 <!-- 10 min -->
-<!-- Adding API to get task list -->
 Please implement the function `todo` that reads tasks from file `tasks.csv` and return a list of tasks. Visit the page `/todo` to make sure you get the correct list of todo tasks.
 
 ```python
