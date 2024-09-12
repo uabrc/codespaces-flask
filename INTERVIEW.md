@@ -33,14 +33,16 @@ def add():
 ### Q3
 <!-- 10 min -->
 <!-- Adding API to get task list -->
+Please implement the function `todo` that reads tasks from file `tasks.csv` and return a list of tasks. Visit the page `/todo` to make sure you get the correct list of todo tasks.
+
 ```python
-# app.py
+# file: app.py
+
 @app.route("/todo", methods=['GET'])
 def todo():
     # Your code
     return flask.jsonify(d)
 ```
-Please implement the function `todo` that reads tasks from file `tasks.csv` and return a list of tasks. Visit the page `/todo` to make sure you get the correct list of todo tasks.
 
 #### Q3.1
 <!-- 10 min -->
@@ -50,7 +52,8 @@ Add sorting to the todo list with date and/or priority
 <!-- 10 min -->
 
 ```python
-# app.py
+# file: app.py
+
 @app.route("/todo", methods=['POST'])
 def add_todo():
     # Your code
