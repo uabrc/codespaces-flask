@@ -1,0 +1,24 @@
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+
+<body>
+    <div class="App">
+        <header class="App-header">
+            <p>
+                Flask {{ title }}
+            </p>
+            <form method="POST">
+                <input type="text" name="num1" placeholder="number 1">
+                +
+                <input type="text" name="num2" placeholder="number 2">
+                <button type="submit">Calculate</button>
+            </form>
+            {% if answer %}
+            <p>The answer: {{ answer }}</p>
+            {% endif %}
+        </header>
+    </div>
+</body>
+
+</html>
