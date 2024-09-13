@@ -3,11 +3,7 @@ Talk us through your thinking process. If you have any question, feel free to as
 ## Questions
 ### 1. How does HTTP work?
 
-### 2. What is your workflow for marking up for a bunch of PDFs?
-
-### 3. How/what skills would you use to save the world?
-
-### 4. Coding question
+### 2. Coding question
 We will be using GitHub Codespaces for the following questions, please create a codespaces by clicking the dropdown `Code` -> `Create codespaces on tech-interview-2...` at top right of the Github Repo.
 
 ![button](./button.png)
@@ -65,3 +61,7 @@ Please implement the function `add_todo` that will take `POST` request, and add 
 ### Bonus Question
 <!-- 10 min -->
 Modify the `todo` function to read tasks from SQLite database.
+
+### 3. What is your workflow for marking up for a bunch of PDFs?
+
+### 4. How/what skills would you use to save the world?
