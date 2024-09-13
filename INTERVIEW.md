@@ -3,9 +3,11 @@ Talk us through your thinking process. If you have any question, feel free to as
 ## Questions
 ### 1. How does HTTP work?
 
-### 2.
+### 2. What is your workflow for marking up for a bunch of PDFs?
 
-### 3. Coding question
+### 3. How/what skills would you use to save the world?
+
+### 4. Coding question
 We will be using GitHub Codespaces for the following questions, please create a codespaces by clicking the dropdown `Use this template` -> `Open in codespaces` at top right of the Github Repo.
 
 ![button](./button.png)
