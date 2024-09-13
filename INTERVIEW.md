@@ -56,7 +56,7 @@ def add_todo():
     # Your code
     return result
 ```
-Please implement the function `add_todo` that will take `POST` request, and add the task name from `request.form.get("task_name")` to the file `tasks.csv`
+Please implement the function `add_todo` that will take `POST` request, and add the task name from `request.form.get("task_name")` to the file `tasks.csv`. Return `{"result": True}` if the todo list updated successfully, otherwise return `{"result": False}`.
 
 ### Bonus Question
 <!-- 10 min -->
